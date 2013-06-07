@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/>
+<title>从btcchina买到mtgox卖收益计算</title>
+<style>
+body{line-height:2;}
+table{text-align:left;}
+b{color:red;}
+</style>
+
+</head>
+<body>
+<form autocomplete="on" id="frm">
+本金：<input name="money" value="1000" type="number"/>元<br/>
+bc买出价：￥<input name="bc" value="1000" type="number"/><br/>
+mtgox卖出价：$<input name="mt" value="100" type="number"/><br/>
+rchange买美元： <input name="rchange" value="5.917" type="number"/><br/>
+收益：<input name="earn" readonly /><br/>
+收益率：<input name="per" readonly="readonly" />%
+<input type="button" onclick="showResult(this)" value="显示结果"/>
+</form>
+
+</div>
+<script type="text/javascript" src="js/g.js"></script>
+<script>
+var BC=new TradeCenter(.5,.3,.5,0);
+var MT=new TradeCenter(1,.6,1);
+
+var OKpay=new ExchangeAgency(.995,.99);
+var rChange=new ExchangeAgency(6.381,5.917);
+
+
+//step1 RMB buy btc
+//returns number of btc
+function bc2mt(money){
+	var money2BTC=BC.moneyInBTCOut(money),
+	btc2mtMoney=MT.BTCInMoneyOut(money2BTC),
+
+	earn=rChange.sell(OKpay.sell( btc2mtMoney));
+	return earn.toFixed(2);
+
+}
+
+function report(){
+	//debugger;
+	var f=g('frm'),
+	money=f.money.value,
+	bc=f.bc.value,
+	mt=f.mt.value,
+	//ex=f.ex.value,
+	earn;
+	BC.buyPrice=bc;
+	MT.sellPrice=mt;
+	//CMB.sellRate=ex;
+	f.earn.value=earn=bc2mt(money);
+	f.per.value=((earn- money)/money*100).toFixed(2)
+
+}
+
+function showResult(e){
+	/*var f=e.form,
+	result=report(f.rmb.value-0,f.mt.value-0,f.fx.value-0);
+	for(var k in result){
+		if(document.getElementById(k))document.getElementById(k).innerHTML=result[k];
+	}*/
+	report();
+
+}
+
+
+</script>
+
+
+</body>
+</html>

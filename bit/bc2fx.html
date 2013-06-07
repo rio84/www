@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/>
+<title>从btcchina买到fxbtc卖收益计算</title>
+<style>
+body{line-height:2;}
+table{text-align:left;}
+b{color:red;}
+</style>
+
+</head>
+<body>
+<form autocomplete="on" id="frm">
+本金：<input name="money" value="1000" type="number"/>元<br/>
+bc买出价：￥<input name="bc" value="757" type="number"/><br/>
+fx卖出价：$<input name="fx" value="772" type="number"/><br/>
+收益：<input name="earn" readonly /><br/>
+收益率：<input name="per" readonly="readonly" />%
+<input type="button" onclick="showResult(this)" value="显示结果"/>
+</form>
+
+</div>
+<script type="text/javascript" src="js/g.js"></script>
+<script>
+
+var BC=new TradeCenter(.5,.3,.5,0);
+var FX=new TradeCenter(.5,.2,.5,0.01);
+
+//step1 RMB buy btc
+//returns number of btc
+function bc2fx(money){
+	//debugger
+	var money2BTC=BC.moneyInBTCOut(money),
+	btc2Money=FX.BTCInMoneyOut(money2BTC),
+
+	earn=btc2Money-money;
+	return earn.toFixed(2);
+
+}
+
+function report(){
+	//debugger;
+	var f=g('frm'),
+	money=f.money.value,
+	bc=f.bc.value,
+	fx=f.fx.value,
+	//ex=f.ex.value,
+	earn;
+	BC.buyPrice=bc;
+	FX.sellPrice=fx;
+	//CMB.sellRate=ex;
+	f.earn.value=earn=bc2fx(money);
+	f.per.value=(earn/money*100).toFixed(2)
+
+}
+
+function showResult(e){
+	report();
+
+}
+
+
+</script>
+
+
+</body>
+</html>

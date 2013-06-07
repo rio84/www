@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/>
+<title>从mtgox买到fxbtc卖</title>
+<style>
+body{line-height:2;}
+table{text-align:left;}
+b{color:red;}
+</style>
+
+</head>
+<body>
+<form>
+本金：<input name="rmb" value="1000" type="number"/>元<br/>
+mtgox买入价：$<input name="mt" value="100" type="number"/><br/>
+fxbtc卖出价：￥<input name="fx" value="1000" type="number"/><br/>
+<input type="button" onclick="showResult(this)" value="显示结果"/>
+</form>
+<div id="result">
+	<table id="resultTB">
+		<tr>
+			<th>本金</th>
+			<td><b id="rmb">0</b></td>
+		</tr>
+		<tr>
+			<th>LR</th>
+			<td><b id="LR">0</b></td>
+		</tr>
+		<tr>
+			<th>mtgox USD</th>
+			<td><b id="USD">0</b></td>
+		</tr>
+		<tr>
+			<th>btc</th>
+			<td><b id="btc">0</b></td>
+		</tr>
+		<tr>
+			<th>收益</th>
+			<td><b id="earn">0</b></td>
+		</tr>
+		<tr>
+			<th>收益率</th>
+			<td><b id="per">0</b></td>
+		</tr>
+	</table>
+</div>
+<script>
+var rmb=10000,
+price={fx:800,mt:100},
+buyLR=6.5;
+
+
+function lr(start){
+
+	return start/buyLR*.95
+}
+function rsgoldchange(start){
+	return start;
+}
+function mtgox(start,price_mt){
+	return start/price_mt*(1-.6/100)
+}
+function fxbtc(start,price_fx){
+	return start*(1-.5/100)*price_fx;
+}
+function report(rmb,price_mt,price_fx){
+	var end=start=rmb,
+	LR=lr(start),
+	usd=rsgoldchange(LR),
+	btc=mtgox(usd,price_mt),
+	end=fxbtc(btc,price_fx),
+	msg=[];
+	msg.push('LR:'+LR.toFixed(2));
+	msg.push('USD:'+usd.toFixed(2));
+	msg.push('btc:'+btc.toFixed(4));
+	msg.push('start:'+start.toFixed(2));
+	msg.push('end:'+end.toFixed(2));
+	msg.push('per:'+((end-start)/start*100).toFixed(2)+'%');
+	//alert(msg.join("\n"));
+	return {
+		rmb:start.toFixed(2),
+		LR:LR.toFixed(2),
+		USD:usd.toFixed(2),
+		btc:btc.toFixed(4),
+		end:end.toFixed(2),
+		earn:(end-start).toFixed(2),
+		per:((end-start)/start*100).toFixed(2)+'%'
+	};
+}
+
+function showResult(e){
+	var f=e.form,
+	result=report(f.rmb.value-0,f.mt.value-0,f.fx.value-0);
+	for(var k in result){
+		if(document.getElementById(k))document.getElementById(k).innerHTML=result[k];
+	}
+
+}
+
+
+</script>
+
+
+</body>
+</html>
