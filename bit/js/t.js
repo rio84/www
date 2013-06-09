@@ -17,4 +17,25 @@ function ticker(){
 		//var hight
 	});
 }
+function soki(){
+    var conn = io.connect('https://socketio.mtgox.com/mtgox');
+    conn.on('connect',function(){
+    	console.log('connect')
 
+    });
+    conn.on('message', function(data) {
+        // Handle incoming data object.
+        console.log(data)
+    });
+    conn.on('error',function(data){
+    	console.log('error')
+
+
+    })
+    conn.on('disconnect',function(data){
+    	console.log('disconnect')
+
+
+    })
+}
+soki();
