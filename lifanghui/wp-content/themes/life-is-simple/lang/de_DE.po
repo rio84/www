@@ -1,0 +1,389 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Life is Simple v1.3.2 - DE\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-30 03:01+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Nicx <cx@chereshka.net>\n"
+"Language-Team: Carsten Ringe - http://kopis.de; Nicx\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# life-is-simple
+#: 404.php:4
+msgid "<h1>Error 404</h1>"
+msgstr "<h1>Fehler 404</h1>"
+
+# life-is-simple
+#: 404.php:8
+msgid "<p><em><strong>Error 404:</strong> Not Found!<br>Sorry, but the page you were looking for does not exist. Check the address for typing errors. You can also start with the"
+msgstr "<p><em><strong>Fehler 404:</strong> Seite nicht gefunden!<br>Entschuldigung, aber die Seite, die Sie erreichen wollen, existiert nicht. Schauen Sie mal, ob es einen Schreibfehler im Adressbar zu finden ist. Sie können auch zurück zu der"
+
+# life-is-simple
+#: 404.php:8
+#: index.php:36
+#: single.php:40
+msgid "homepage"
+msgstr "homepage"
+
+# life-is-simple
+#: 404.php:8
+msgid "or browse the menu in right.</em></p>"
+msgstr "oder in dem Menü rechts navigieren.</em></p>"
+
+# life-is-simple
+#: archive.php:17
+msgid "<p>Archive for the &middot;</p>"
+msgstr "<p>Archiv für die &middot;</p>"
+
+# life-is-simple
+#: archive.php:17
+msgid "<p>&middot; Category...</p>"
+msgstr "<p>&middot; Kategorie...</p>"
+
+# life-is-simple
+#: archive.php:19
+msgid "<p>Posts tagged &middot;</p>"
+msgstr "<p>Beiträge mit dem Tag &middot;</p>"
+
+# life-is-simple
+#: archive.php:21
+#: archive.php:23
+#: archive.php:25
+msgid "<p>Archive for </p>"
+msgstr "<p>Archiv für </p>"
+
+# life-is-simple
+#: archive.php:27
+msgid "<p>Archive for the author &middot;</p>"
+msgstr "<p>Archiv für den Autor &middot;</p>"
+
+# life-is-simple
+#: archive.php:29
+msgid "<p>Blog archives...</p>"
+msgstr "<p>Archiv...</p>"
+
+# life-is-simple
+#: archive.php:42
+#: index.php:11
+msgid "no comments"
+msgstr "kein kommentar"
+
+# life-is-simple
+#: archive.php:42
+#: index.php:11
+msgid "1 comment"
+msgstr "1 kommentar"
+
+# life-is-simple
+#: archive.php:42
+#: index.php:11
+#, php-format
+msgid "% comments"
+msgstr "% kommentare"
+
+# life-is-simple
+#: archive.php:46
+#: comments.php:18
+#: index.php:15
+#: single.php:15
+msgid "by"
+msgstr "von"
+
+# life-is-simple
+#: archive.php:46
+#: index.php:15
+#: single.php:15
+msgid "in"
+msgstr "in"
+
+# life-is-simple
+#: archive.php:46
+#: comments.php:19
+#: index.php:15
+#: page.php:11
+#: single.php:15
+msgid "edit?"
+msgstr "editieren?"
+
+# life-is-simple
+#: archive.php:50
+#: index.php:19
+#: page.php:15
+#: single.php:19
+msgid "<em><strong>More:</strong> Read the rest of this entry...</em>"
+msgstr "<em><strong>Mehr:</strong> Lies den Rest dieses Artikels...</em>"
+
+# life-is-simple
+#: archive.php:55
+#: index.php:24
+#: single.php:24
+msgid "<div class=\"post-tags\">tags: "
+msgstr "<div class=\"post-tags\">tags: "
+
+# life-is-simple
+#: archive.php:58
+#: index.php:27
+msgid "No comment?"
+msgstr "Kein kommentar?"
+
+# life-is-simple
+#: archive.php:58
+#: index.php:27
+msgid "1 comment..."
+msgstr "1 kommentar..."
+
+# life-is-simple
+#: archive.php:58
+#: index.php:27
+#, php-format
+msgid "% comments!"
+msgstr "% kommentare!"
+
+# life-is-simple
+#: archive.php:72
+#: index.php:45
+msgid "&laquo; Newer Posts"
+msgstr "&laquo; Neuere Artikel"
+
+# life-is-simple
+#: archive.php:73
+#: index.php:46
+msgid "Older Posts &raquo;"
+msgstr "Ältere Artikel &raquo;"
+
+# life-is-simple
+#: comments.php:2
+msgid "<em><strong>Warning:</strong> This post is password protected. Enter the password to view comments.</em>"
+msgstr "<em><strong>Warnung:</strong> Dieser Eintrag ist durch ein Passwort geschützt. Bitte gib das Passwort ein, um die Kommentare zu sehen.</em>"
+
+# life-is-simple
+#: comments.php:11
+#: comments.php:31
+msgid "No Responses"
+msgstr "Keine Antworten"
+
+# life-is-simple
+#: comments.php:11
+#: comments.php:31
+msgid "1 Response"
+msgstr "1 Antwort"
+
+# life-is-simple
+#: comments.php:11
+#: comments.php:31
+msgid "% Responses"
+msgstr "% Antworten"
+
+# life-is-simple
+#: comments.php:11
+#: comments.php:31
+msgid "to"
+msgstr "zu"
+
+# life-is-simple
+#: comments.php:11
+#: comments.php:31
+msgid "Add a comment?"
+msgstr "Kommentar hinzufügen?"
+
+# life-is-simple
+#: comments.php:11
+#: comments.php:31
+msgid "or"
+msgstr "oder"
+
+# life-is-simple
+#: comments.php:11
+#: comments.php:31
+msgid "Follow comments by RSS"
+msgstr "Verfolge die Kommentare per RSS"
+
+# life-is-simple
+#: comments.php:18
+msgid "Comment"
+msgstr "Kommentar"
+
+# life-is-simple
+#: comments.php:18
+msgid "Trackback"
+msgstr "Trackback"
+
+# life-is-simple
+#: comments.php:18
+msgid "Pingback"
+msgstr "Pingback"
+
+# life-is-simple
+#: comments.php:19
+msgid "at"
+msgstr "um"
+
+# life-is-simple
+#: comments.php:21
+msgid "<em><strong>Note:</strong> Your comment is awaiting moderation and eventually will be available later. Thanks for the patience!</em>"
+msgstr "<em><strong>Hinweis:</strong> Dein Kommentar wartet auf die Moderation und wird wahrscheinlich später erscheinen. Vielen Dank für die Geduld!</em>"
+
+# life-is-simple
+#: comments.php:33
+msgid "Be the first and share your thoughts!"
+msgstr "Sei der erste und teile Deine Gedanken!"
+
+# life-is-simple
+#: comments.php:42
+msgid "Please leave a comment..."
+msgstr "Bitte hinterlasse einen Kommentar..."
+
+# life-is-simple
+#: comments.php:45
+#, php-format
+msgid "<em><strong>Note:</strong> You must be <a href=\"%s\">logged in</a> to post a comment.</em>"
+msgstr "<em><strong>Hinweis:</strong> Du musst <a href=\"%s\">angemeldet</a> sein, um einen Kommentar abzuschicken.</em>"
+
+# life-is-simple
+#: comments.php:50
+msgid "<em><strong>Note:</strong> You must be <a href=\"<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php echo urlencode(get_permalink()); ?>\">logged in</a> to post a comment.</em>"
+msgstr "<em><strong>Hinweis:</strong> Du musst <a href=\"<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php echo urlencode(get_permalink()); ?>\">angemeldet</a> sein, um einen Kommentar zu schreiben.</em>"
+
+# life-is-simple
+#: comments.php:56
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>..."
+msgstr "Angemeldet als <a href=\"%1$s\">%2$s</a>..."
+
+# life-is-simple
+#: comments.php:56
+msgid "log out of this account"
+msgstr "diesen Account abmelden"
+
+# life-is-simple
+#: comments.php:56
+msgid "Logout?"
+msgstr "Abmelden?"
+
+# life-is-simple
+#: comments.php:57
+msgid "You can use these tags:"
+msgstr "Du kannst diese Tags benutzen:"
+
+# life-is-simple
+#: comments.php:60
+msgid "Stay behind your words, use your real name or nickname."
+msgstr "Steh hinter Deinen Worten, benutz deinen echten Namen oder Spitznamen."
+
+# life-is-simple
+#: comments.php:62
+msgid "your real name or nickname"
+msgstr "Dein Name oder Spitzname"
+
+# life-is-simple
+#: comments.php:62
+msgid "name"
+msgstr "name"
+
+# life-is-simple
+#: comments.php:65
+msgid "your e-mail address is confidential information and WON'T be shared or published!"
+msgstr "Deine eMail-Adresse ist vertraulich und wird NICHT verteilt oder veröffentlicht!"
+
+# life-is-simple
+#: comments.php:65
+msgid "e-mail"
+msgstr "e-mail"
+
+# life-is-simple
+#: comments.php:69
+msgid "your web site"
+msgstr "Deine Webseite"
+
+# life-is-simple
+#: comments.php:69
+msgid "site"
+msgstr "webseite"
+
+# life-is-simple
+#: comments.php:76
+msgid "Please be nice and tolerant, don't offend. Thanks!"
+msgstr "Sei nett und tolerant, beleidige niemanden. Danke!"
+
+# life-is-simple
+#: comments.php:78
+msgid "Write here, right now"
+msgstr "Schreib hier und jetzt"
+
+# life-is-simple
+#: comments.php:91
+msgid "<p align=\"center\" class=\"comments-title\">Comments are closed now!</p>"
+msgstr "<p align=\"center\" class=\"comments-title\">Kommentare sind jetzt geschlossen!</p>"
+
+# life-is-simple
+#: footer.php:4
+msgid "\"Life is Simple\" is a <a href=\"http://simple-theme.com\" title=\"Simple WordPress theme\">simple theme</a> for <a href=\"http://wordpress.org/\" target=\"_blank\">WordPress</a>, powe<span class=\"red\">red</span> by <a href=\"http://chereshka.net\" target=\"_blank\" title=\"Web Design, SEO\">Chereshka</a>."
+msgstr "\"Life is Simple\" is a <a href=\"http://simple-theme.com\" title=\"Simple WordPress theme\">simple theme</a> for <a href=\"http://wordpress.org/\" target=\"_blank\">WordPress</a>, powe<span class=\"red\">red</span> by <a href=\"http://chereshka.net\" target=\"_blank\" title=\"Web Design, SEO\">Chereshka</a>."
+
+# life-is-simple
+#: index.php:36
+#: single.php:40
+msgid "<em><strong>Not Found:</strong> Sorry, nothing is found here. Try a different search or start from the"
+msgstr "<em><strong>Nicht Gefunden:</strong> Ist hier nichts gefunden. Versuchen es eine andere suche oder starten sie von der"
+
+# life-is-simple
+#: sidebar.php:5
+msgid "Home"
+msgstr "Home"
+
+# life-is-simple
+#: sidebar.php:5
+#: sidebar.php:20
+msgid "RSS Feed"
+msgstr "RSS-Feed"
+
+# life-is-simple
+#: sidebar.php:16
+msgid "<span class=\"widget-title\">Meta</span>"
+msgstr "<span class=\"widget-title\">Meta</span>"
+
+# life-is-simple
+#: sidebar.php:20
+msgid "Syndicate this site using RSS"
+msgstr "Abonniere diese Seite mit RSS"
+
+# life-is-simple
+#: sidebar.php:21
+msgid "The latest comments to all posts in RSS"
+msgstr "Die neuesten Kommentare zu allen Beiträgen als RSS"
+
+# life-is-simple
+#: sidebar.php:21
+msgid "Comments RSS"
+msgstr "Kommentare RSS"
+
+# life-is-simple
+#: single.php:29
+msgid "&laquo; %link <span class=\"legend\"> &laquo; newer</span>"
+msgstr "&laquo; %link <span class=\"legend\"> &laquo; neuere</span>"
+
+# life-is-simple
+#: single.php:32
+msgid "<span class=\"legend\">older &raquo; </span> %link &raquo;"
+msgstr "<span class=\"legend\">ältere &raquo; </span> %link &raquo;"
+
+# life-is-simple
+#~ msgid ""
+#~ "Logged in as <a href=\"<?php echo get_option('siteurl'); ?>/wp-admin/"
+#~ "profile.php\"><?php echo $user_identity; ?></a>..."
+#~ msgstr ""
+#~ "Angemeldet als <a href=\"<?php echo get_option('siteurl'); ?>/wp-admin/"
+#~ "profile.php\"><?php echo $user_identity; ?></a>..."
+# life-is-simple
+#, fuzzy
+#~ msgid "comment"
+#~ msgstr "1 kommentar"
+

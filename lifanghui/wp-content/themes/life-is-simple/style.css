@@ -1,0 +1,239 @@
+/*
+Theme Name: Life is Simple
+Theme URI: http://simple-theme.com/
+Version: 1.3.4
+
+Description: Simple, stylish and light. Text- and image-oriented: it's all about the content here! Functional and powerful inside, clean and lightweight outside. Easy to use and modify. Some standard specifications: two columns, widget-ready, a flexible width, translation-ready (also includes some additional languages). Clean and understandable code, valid XHTML!
+
+Tags: silver, white, light, two-columns, one-column, right-sidebar, flexible-width, photoblogging, translation-ready
+
+Author: Nicx@Chereshka
+Author URI: http://chereshka.net/
+*/
+
+
+
+.screen-reader-text { position:absolute; left:-1000em; }
+
+body { background:#F0F0F0; color:#222; font:normal 12px/14px "Trebuchet MS","Lucida Grande",Arial,Helvetica; margin:0; padding:0; }
+
+#wrapper { min-width:960px; max-width:1280px; margin:0 auto; padding:0; text-align:left; }
+
+a, a:visited { color:#444; border-bottom:1px #aaa dotted; text-decoration:none; }
+a:hover { color:#000; border-bottom:1px #333 solid; }
+
+p { margin:13px 0; padding:0; }
+
+acronym, abbr { border-bottom:1px dotted #999; cursor:help; }
+
+hr { width:95%; color:#888; }
+
+select { color:#555; background:#f3f3f3; display:block; border:1px solid #ccc; margin:3px 0 0 10px; }
+select option { border-bottom:1px dotted #B0B0B0; padding:0 6px; }
+
+form { clear:both; }
+
+
+
+/* HEADER */
+
+#header { color:#FAFAFA; font:normal 24px/24px "Trebuchet MS",Georgia,Arial,Helvetica; text-align:center; text-shadow:0 0 3px #444,2px 2px 3px #bbb; padding:10px 15px; margin:17px 410px 5px 110px; -moz-border-radius:15px; -khtml-border-radius:15px; -webkit-border-radius:15px; border-radius:15px; }
+#header h2 { color:#515151; font:bold 26px/28px "Trebuchet MS",Georgia,Arial,Helvetica; letter-spacing:-1px; text-shadow:3px 2px 3px #b8b8b8; margin:0; padding:0 6px 0 2px; display:inline; }
+#header h2 a, #header h2 a:visited { color:#515151; border:0; }
+#header h2 a:hover { color:#000; }
+#header h3 { color:#666; font:normal 25px/25px "Trebuchet MS",Georgia,Arial,Helvetica; letter-spacing:-1px; text-shadow:0 0 2px #D2D2D2; margin:0; padding:0 2px 0 4px; display:inline; }
+
+#border { height:2px; margin:18px 420px 0 110px; padding:0; border-top:2px #d5d5d5 solid; border-bottom:1px #ccc solid; }
+
+
+
+/* POST */
+
+#content { margin:30px 250px 100px 115px; padding:0 120px 0 0; }
+
+.post-date { font:normal 12px/12px "Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,Verdana; color:#939393; margin:20px 0 2px 1px; }
+
+.post-title h1, .post-title h2 { font:normal 25px/25px "Trebuchet MS",Georgia,Arial,Helvetica; color:#444; letter-spacing:0; margin:0; padding:0; display:inline; text-shadow:2px 1px 2px #b8b8b8; }
+.post-title h1 a, .post-title h1 a:visited, .post-title h2 a, .post-title h2 a:visited { color:#444; border:0; }
+.post-title h1 a:hover, .post-title h2 a:hover { color:#000; }
+
+.comments-counter { font:normal 25px/23px "Trebuchet MS",Georgia,Arial,Helvetica; color:#ccc; letter-spacing:-1px; margin:0 0 0 5px; padding:0; display:inline; text-shadow:2px 1px 2px #E2E2E2; }
+.comments-counter a, .comments-counter a:visited { color:#ccc; border:0; }
+.comments-counter a:hover { color:#aaa; }
+
+.post-meta { font:normal 12px/18px "Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,Verdana; color:#888; margin:0 0 0 1px; }
+.post-meta ul { display:inline; list-style:none; margin:0; padding:0; }
+.post-meta li, ul.post-meta li { display:inline; }
+
+.post-content { font:normal 14px/18px "Trebuchet MS","Lucida Grande",Arial,Helvetica; max-width:740px; margin:10px 0 0 0; }
+.post-content a, .post-content a:visited { color:#8C7503; border:0; text-decoration:underline; }
+.post-content a:hover { color:#000; }
+.post-content ul, .post-content ol { padding:0; margin:5px 20px 0 25px; }
+.post-content ul ul, .post-content ol ol, .post-content ul ol, .post-content ol ul { padding:0; margin:0 15px 3px 15px; }
+.post-content ul li, .post-content ol li { padding:0; margin:0 15px; }
+.post-content li { padding:0; margin:-4px 15px -1px 20px; }
+
+.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 { font-face:"Trebuchet MS",Georgia,Arial,Helvetica; color:#666; margin:12px 0 1px 0; padding:0; }
+.post-content h1, .post-content h2 { font-weight:normal; }
+
+.comments-counter2 { font:14px/14px "Trebuchet MS","Lucida Grande",Arial,Helvetica; padding:0 0 40px 0; clear:both; }
+.comments-counter2 a, .comments-counter2 a:visited { color:#444; }
+.comments-counter2 a:hover { color:#000; }
+
+.post-tags { font:normal 10px/14px "Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,Verdana; color:#888; padding:0 0 10px 0; }
+
+.archive-title { padding:0 0 10px 0; }
+.archive-title p { font:normal 12px/18px "Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,Verdana; color:#888; display:inline; }
+.archive-title h1 { font:bold 12px/18px "Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,Verdana; color:#888; display:inline; }
+
+#content blockquote { color:#444; border-left:5px solid #C8C8C8; margin:-5px 0 0 20px; padding:0 0 0 6px; }
+
+#content code { color:#555; font:normal 14px/18px "Courier New",Courier,Fixedsys; border-bottom:1px solid #dfdfdf; padding:0 1px; }
+
+.post-content input[type=text], .post-content input[type=password] { color:#999; background:#F4F4EE; font:normal 12px "Trebuchet MS","Lucida Grande",Arial,Helvetica; border:1px solid #C6C2B8; margin:1px 0 3px 0; padding:1px 3px 2px 4px; -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; border-radius:5px; }
+.post-content input[type=text]:focus, .post-content input[type=password]:focus { color:#444; background:#FBFBFB; }
+
+.post-content textarea { color:#999; background:#F4F4EE; font:normal 14px/16px "Trebuchet MS","Lucida Grande",Arial,Helvetica; border:1px solid #C6C2B8; padding:4px 2px 2px 4px; margin:1px 0 3px 0; -moz-border-radius:7px; -webkit-border-radius:7px; -khtml-border-radius:7px; border-radius:7px; }
+.post-content textarea:focus { color:#444; background:#FBFBFB; }
+
+.post-content input[type=submit] { color:#444; background:#E3E3E3; font:bold 13px/13px "Trebuchet MS","Lucida Grande",Arial,Helvetica; letter-spacing:1px; text-transform:uppercase; cursor:pointer; display:block; margin:0 0 5px 0; padding:3px 4px; -moz-border-radius:10px; -webkit-border-radius:10px; -khtml-border-radius:10px; border-radius:10px; }
+.post-content input[type=submit]:hover { color:#3F3F3F; background:#F5F5F5; }
+
+#content .border { height:1px; margin:0 45px 35px 15px; padding:0; border-top:1px #fff solid; border-bottom:1px #D9D9D9 solid; }
+
+
+
+/* POST - Images */
+
+.post-content img { max-width:115%; height:auto; background:#ddd; border:5px #ccc solid; padding:1px; margin:3px 25px 1px -20px; -moz-border-radius:4px; -khtml-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; }
+.post-content a img:hover { border:5px #B5B5B5 solid; }
+
+.post-content .aligncenter, div.aligncenter { display:block; margin-left:auto; margin-right:auto; clear:both; }
+.post-content .alignleft { float:left; margin:0 10px 2px 0; }
+.post-content .alignright { float:right; margin:0 0 2px 7px; }
+
+.post-content .wp-caption { max-width:115%; background:#ccc; border:1px solid #ddd; padding:4px 0 0 0; margin:4px 3px 6px -20px; text-align:center; -moz-border-radius:4px; -khtml-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; }
+.post-content .wp-caption:hover { background:#B5B5B5 ; }
+.post-content .wp-caption img { max-width:100%; height:auto; border:1px #ddd solid; margin:0; padding:0; border:0 none; }
+.post-content .wp-caption a img:hover { margin:0; padding:0; border:0 none; }
+.post-content .wp-caption p.wp-caption-text { color:#333; font:normal 11px/15px Verdana,Arial,Helvetica; padding:2px 4px 3px 5px; margin:0; }
+
+.post-content .wp-smiley { border:0; padding:0; margin:0; -moz-border-radius:0px; -khtml-border-radius:0px; -webkit-border-radius:0px; border-radius:0px; }
+
+
+
+/* POST & Page Navigation */
+
+.page-nav { font:normal 12px/14px "Lucida Grande",Tahoma,Verdana,Arial; margin:15px 0 50px 0; }
+.page-nav .wp-pagenavi span.pages { color:#555; background:#F0F0F0; border:0; }
+.page-nav .wp-pagenavi span.current { color:#ddd; background:#888; font-size:16px; font-weight:bold; border:0; padding:4px 3px; }
+.page-nav .wp-pagenavi a, .page-nav .wp-pagenavi a:link, .page-nav .wp-pagenavi a:visited { color:#444; background:#ccc; border:0; padding:2px 4px; }
+.page-nav .wp-pagenavi a:hover { background:#aaa; border:0; }
+.page-nav .wp-pagenavi span.extend { background:#F0F0F0; border:0; }
+.page-nav .newer { font-size:15px; font-weight:bold; float:left; display:inline; padding:0 15px; 0 0; }
+.page-nav .older { font-size:15px; font-weight:bold; float:right; display:inline; padding:0 25px 0 15px; }
+
+.post-nav { font:normal 12px/14px "Lucida Grande",Tahoma,Verdana,Arial; display:block; text-align:center; margin:10px 0 70px 0; clear:both; }
+.post-nav .newer { float:left; display:inline; padding:0 15px; 0 0; }
+.post-nav .older { float:right; display:inline; padding:0 25px 0 15px; }
+.post-nav .legend { color:#B8B8B8; }
+
+
+
+/* SIDEBAR */
+
+#sidebar-wrapper { position:absolute; top:0; right:0; width:220px; color:#333; background:#F0F0F0; font:normal 12px/14px "Trebuchet MS","Lucida Grande","Lucida Sans Unicode",Arial; padding:20px 20px 30px 5px; }
+
+#menu { width:170px; margin:20px 0 15px -5px; padding:0; text-align:center; }
+#menu ul { padding:0; margin:0; }
+#menu li { font:bold 12px/14px Arial,Helvetica,"Trebuchet MS"; letter-spacing:2px; list-style:none; margin:-3px 0; padding:5px 0; }
+#menu li a, #menu li a:visited { display:block; color:#FAFAFA; background:#D0D0D0; text-shadow:0 0 4px #FAFAFA; margin:0 2px 0 1px; padding:5px 5px 4px 5px; border:0; text-decoration:none; text-transform:uppercase; -moz-border-radius:8px; -khtml-border-radius:8px; -webkit-border-radius:8px; border-radius:8px; }
+#menu li a:hover { color:#fff; background:#C5C5C5; text-shadow:0 0 3px #B5B5B5; }
+#menu .current_page_item a, #menu .current_page_item a:visited { color:#fff; background:#C5C5C5; text-shadow:0 0 3px #B5B5B5; }
+#menu ul ul li { margin:3px 2px 0 10px; padding:0; line-height:11px; }
+#menu .rss a, #menu .rss a:visited { color:#B3B3B3; background:#ddd url(rss.png) no-repeat 37px center; text-shadow:0 0 0; padding-left:20px; }
+#menu .rss a:hover { color:#A9A9A9; background:#E7E7E7 url(rss.png) no-repeat 37px center; text-shadow:0 0 0; }
+
+#sidebar a, #sidebar a:visited { border:0; text-decoration:underline; }
+
+#sidebar ul { list-style-type:none; margin:0; padding:0; }
+#sidebar ul li { color:#888; padding:5px 0; }
+#sidebar ul li ul li { margin:0; padding:2px 0 1px 3px; }
+#sidebar ul li ul li a, #sidebar ul li ul li a:visited { color:#555; border-left:3px #cacaca solid; text-decoration:none; padding:0 4px; }
+#sidebar ul li ul li a:hover { color:#111; border-left:3px #777 solid; }
+#sidebar ul li ul .current-cat a, #sidebar ul li ul .current-cat a:visited { color:#111; border-left:3px #777 solid; }
+#sidebar ul li ul ul.children { margin:-1px 0 2px 0; }
+
+#sidebar .widget { margin:3px 0; }
+#sidebar .widget-title { font:bold 16px/20px "Trebuchet MS",Arial,Helvetica; letter-spacing:-1px; }
+#sidebar .widget-title a, #sidebar .widget-title a:visited { color:#888; }
+#sidebar .widget-title a:hover { color:#444; }
+#sidebar .textwidget { color:#444; margin:2px 0; }
+
+#sidebar input { color:#555; background:#F3F3F3; border:1px solid #ccc; margin:0 0 0 6px; padding:0 2px; }
+#sidebar input:focus { background:#FAFAFA; }
+#sidebar input#s { width:130px; }
+#sidebar input#searchsubmit { display:block; width:136px; color:#888; background:#EBEBEB; letter-spacing:2px; border:1px solid #ccc; margin:0 0 0 6px; padding:1px 2px; cursor:pointer; }
+#sidebar input#searchsubmit:hover { background:#FBFBFB; border:1px solid #FAFAFA; }
+
+#sidebar select { width:140px; }
+
+#sidebar img { border:0; margin:0; max-width:200px; }
+
+#sidebar #wp-calendar { font-size:16px; }
+
+#sidebar .twitter li.twitter-item { color:#444; margin:2px 0 4px 0; }
+#sidebar .twitter a.twitter-link, #sidebar .twitter a.twitter-link:visited { border:0; color:#111; letter-spacing:-1px; }
+#sidebar .twitter a.twitter-link:hover { border:0; text-decoration:underline; }
+
+#sidebar .recentcomments a, #sidebar .recentcomments a:visited, #sidebar .recentcomments a:hover { border:0; }
+
+
+
+/* COMMENTS - List */
+
+#comments { padding:20px 0 0 0; }
+
+.comments-title { color:#777; font:normal 21px/21px "Trebuchet MS",Georgia,Arial,Helvetica; letter-spacing:-1px; margin:0 0 15px 0; padding:0; clear:both; }
+.comments-title a, .comments-title a:visited { color:#444; border:0; text-decoration:underline; }
+.comments-title a:hover { color:#000; }
+
+.comment { max-width:580px; color:#555; background:#F7F7F7; font:normal 13px/16px "Trebuchet MS","Lucida Grande","Lucida Sans Unicode",Arial,Helvetica; padding:13px 10px 2px 15px; margin:20px 0 5px 20px; position:relative; border-right:1px #DADADA solid; border-bottom:1px #CACACA solid; -moz-border-radius:10px; -khtml-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; }
+.comment a, .comment a:visited { color:#444; border:0; text-decoration:underline; }
+.comment a:hover { color:#000; }
+.comment img { max-width:97%; height:auto; border:3px #ddd solid; padding:1px; margin:3px 3px 1px 1px; -moz-border-radius:4px; -khtml-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; }
+.comment a img:hover { border:3px #bbb solid; }
+.comment-avatar { width:34px; height:34px; position:absolute; top:8px; left:10px; padding:0; margin:0; }
+.comment-avatar img { width:32px; height:32px; padding:1px; border:1px solid #ddd; }
+.comment-meta { font:normal 13px/16px "Trebuchet MS","Lucida Grande","Lucida Sans Unicode",Arial,Helvetica; margin:0 0 0 43px; }
+.comment-meta a { color:#555; border:0; text-decoration:underline; }
+.comment-meta a:hover { color:#111; }
+.comment-meta img { border:1px solid #ccc; padding:0; margin:0; -moz-border-radius:2px; -khtml-border-radius:2px; -webkit-border-radius:2px; border-radius:2px; }
+.comment-number, .comment-number a, .comment-number a:visited { color:#bbb; text-decoration:none; }
+.comment-number a:hover { color:#555; }
+.comment-date { color:#bbb; font:normal 11px/11px "Lucida Grande","Lucida Sans Unicode","Trebuchet MS",Verdana,Arial; margin:0 0 10px 43px; }
+
+
+
+/* COMMENTS - Form */
+
+.comment-form { color:#777; width:650px; padding:40px 0 15px 0; }
+.comment-form p { margin:5px 0; }
+.comment-form a, .comment-form a:visited, .comment-form a:hover { border:0; text-decoration:underline; }
+.comment-form .notice { color:#777; font:normal 9px/10px Arial,Helvetica,Tahoma; margin:0 0 10px 0; }
+.comment-form label { color:#777; font:normal 12px Arial,Helvetica,Verdana; border-bottom:1px dotted #bbb; cursor:help; }
+.comment-form .field { width:190px; color:#666; background:#F5F5F5; font:normal 12px "Trebuchet MS","Lucida Grande",Arial,Helvetica; border:1px solid #C6C2B8; padding:1px 3px 2px 4px; -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; border-radius:5px; }
+.comment-form .field:focus { color:#111; background:#F0F0F0; border-left:1px solid #F0F0F0; }
+.comment-form textarea { width:310px; color:#666; background:#F5F5F5; font:normal 14px/16px "Trebuchet MS","Lucida Grande",Arial,Helvetica; border:1px solid #C6C2B8; padding:4px 2px 2px 4px; margin:-1px 0 0 0; -moz-border-radius:7px; -webkit-border-radius:7px; -khtml-border-radius:7px; border-radius:7px; }
+.comment-form textarea:focus { color:#111; background:#F0F0F0; border-top:1px solid #F0F0F0; }
+.comment-form .button { width:190px; height:40px; color:#444; background:#E3E3E3; font:bold 13px/13px "Trebuchet MS","Lucida Grande",Arial,Helvetica; text-transform:uppercase; cursor:pointer; display:block; margin:0 0 5px 0; -moz-border-radius:10px; -webkit-border-radius:10px; -khtml-border-radius:10px; border-radius:10px; }
+.comment-form .button:hover { color:#3F3F3F; background:#F5F5F5; }
+
+
+
+/* FOOTER */
+
+#footer { color:#444; background:#aaa; font:11px/13px Verdana,Arial,Helvetica; text-align:center; border-top:3px double #ccc; border-bottom:3px double #ccc; margin:10px 0 1px 0; padding:3px 280px 4px 70px; clear:both; }
+#footer a, #footer a:visited { color:#222; border:0; }
+#footer a:hover { color:#D93600; }
+#footer .red { color:#D93600; }
